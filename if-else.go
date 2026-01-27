@@ -2,14 +2,20 @@ package main
 
 import "fmt"
 
-func main(){
+func main () {
 	//if statement
-	num :=10
-	if num > 5 {
-		fmt.Println("Angka lebih besar dari 5")
-	} else {
-		fmt.Println("Angka kurang atau sama dengan 5")
-	}
+	// nilai := 74
+	// if nilai >= 80 {
+	// 	fmt.Println("Dapet Nilai A")
+	// } else if nilai >= 75 {
+	// 	fmt.Println("Dapet Nilai B")
+	// } else {
+	// 	fmt.Println("Dapet Nilai C")
+	// }
+
+	// if umur := 21; umur >= 20{
+	// 	fmt.Println("Dewasa")
+	// }
 
 	//for loop
 	for i :=1; i < 5; i++ {
@@ -26,4 +32,21 @@ func main(){
 	default:
 		fmt.Println("Hari tidak diketahui")
 	}
+
+	nilai := 75
+	if nilai >= 75 {
+		fmt.Println("Lulus")
+	}else {
+		fmt.Println("Tidak Lulus")
+	}
+
+	umur := 20
+	if umur <= 13 {
+		fmt.Println("Anak-Anak")
+	}else if umur <= 17{
+		fmt.Println("Remaja")
+	}else {
+		fmt.Println("Dewasa")
+	}
+
 }
