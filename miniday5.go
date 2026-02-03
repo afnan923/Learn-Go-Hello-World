@@ -7,6 +7,10 @@ type Mahasiswa struct{
 	Umur int
 	Jurusan string
 }
+//pointer untuk mengubah nama atau data
+func ubahNama(m *Mahasiswa) {
+	m.Nama = "Dani"
+}
 
 func main() {
 	//MAP
@@ -51,6 +55,9 @@ func main() {
 	fmt.Println("Umur:", data.Umur)
 	fmt.Println("Jurusan:", data.Jurusan)
 	fmt.Println() // spasi antar data
+
+	ubahNama(&mhs)
+	fmt.Println(mhs)
 }
 
 }
