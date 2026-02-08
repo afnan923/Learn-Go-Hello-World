@@ -1,0 +1,4 @@
+Halo Afnan
+Belajar Golang File I/O
+Baris Baru
+Baris Baru
